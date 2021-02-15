@@ -1,0 +1,129 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\RoutingPractice.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\RoutingPractice.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\RoutingPractice.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\RoutingPractice.runtimeconfig.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\RoutingPractice.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netcoreapp3.1\staticwebassets\RoutingPractice.StaticWebAssets.xml" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\RoutingPractice.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\RoutingPractice.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\RoutingPractice.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\RoutingPractice.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.Convention.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.pdb" />
+    <None Include="obj\Debug\netcoreapp3.1\RoutingPractice.RazorTargetAssemblyInfo.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\staticwebassets\RoutingPractice.StaticWebAssets.Manifest.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\RoutingPractice.csproj.nuget.g.props" />
+    <None Include="obj\RoutingPractice.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+</Project>
